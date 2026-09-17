@@ -1,0 +1,15 @@
+services:
+  second-brain:
+    build: .
+    image: second-brain:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ${SCREENSHOTS_FOLDER:-~/Desktop/SC}:/screenshots:ro
+      - second-brain-data:/data
+    environment:
+      - WATCH_FOLDER=/screenshots
+    restart: unless-stopped
+
+volumes:
+  second-brain-data:

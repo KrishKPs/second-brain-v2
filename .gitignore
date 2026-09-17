@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+~/.second_brain/
+.pytest_cache/
+.DS_Store
+
+# --- common ---
+# OS / editor
+._*
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# Secrets
+.env.*
+!.env.example
+
+# Python
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+*.log

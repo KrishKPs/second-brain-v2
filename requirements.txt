@@ -1,0 +1,10 @@
+pytesseract==0.3.13
+Pillow==10.3.0
+sentence-transformers==3.0.1
+chromadb==0.5.3
+tqdm==4.66.4
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+watchdog==4.0.1
+
